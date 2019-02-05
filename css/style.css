@@ -1,0 +1,70 @@
+*{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    background-color: #DBD8FF;    
+    font-size: 16px;
+}
+
+/*
+.tempestad{
+    position: absolute;
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+*/
+
+.wrap{
+/*    float: right;*/
+/*    padding-left: 31%;*/
+/*    padding-top: 13%;*/
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.widget{
+    padding-top: 23%;
+    padding-right: 6.1%;
+    width: 40%;
+    margin: auto;
+}
+
+.widget p{
+    display: inline-block;
+    line-height: 1em;
+}
+
+.fecha{
+    font-family: fantasy;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    background: rgba(0,0,0,.5);
+    padding: 20px;
+    width: 100%;
+}
+
+.reloj{
+    font-family: fantasy;
+    width: 100%;
+    padding: 20px;
+    font-size: 4em;
+    text-align: center;
+    background:rgba(0,0,0,.5); 
+}
+
+.reloj .caja-segundos {
+    display: inline-block;
+}
+
+.reloj .caja-segundos,
+.reloj .ampm {
+    font-size:3.2rem; 
+    display:inline;
+}
